@@ -1,0 +1,27 @@
+[package]
+name = "shotgun_ruby"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+rb-sys = { version = "0.9.68", features = ["global-allocator"] }
+
+getopts = "0.2"
+libc = "0.2"
+num-traits = "0.2"
+
+[dependencies.image]
+default-features = false
+version = "0.23"
+features = ["png", "pnm"]
+
+[dependencies.x11]
+version = "2.18"
+features = ["xlib", "xrandr"]
+
+
+[lib]
+crate-type = ["cdylib"]
+
+[features]
+test-feature = []
