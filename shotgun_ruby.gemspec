@@ -5,6 +5,7 @@ Gem::Specification.new do |spec|
   spec.version = "0.1.0"
   spec.authors = ["Jonas Moesicke"]
   spec.email = ["jmoesicke@clustermarket.com"]
+  spec.homepage = "https://github.com/jm591/shotgun_ruby"
 
   spec.summary = "Rust Screenshot Tool"
   spec.description = "A ruby gem adaptation of the shotgun screenshot tool for linux. Creates a .pam screenshots at a given path and returns the location."
