@@ -26,3 +26,9 @@ Alternatively you can clone the repository and install it manually using the Rak
 ```bash
 rake compile build install
 ```
+
+## Librarys
+You need to install the libclang-dev library
+```bash
+sudo apt install libclang-dev
+```
