@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "shotgun_ruby"
-  spec.version = "0.1.2"
+  spec.version = "0.1.3"
   spec.authors = ["Jonas Moesicke"]
   spec.email = ["jmoesicke@clustermarket.com"]
   spec.homepage = "https://github.com/jm591/shotgun_ruby"
