@@ -32,6 +32,6 @@ jobs:
     - name: Install xrandr
       run: sudo apt-get install libxrandr-dev
     - name: Build the gem
-      run: bundle exec rake compile install
+      run: bundle exec rake compile build
     - name: Run rspec tests
       run: bundle exec rspec
